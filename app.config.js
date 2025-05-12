@@ -1,7 +1,7 @@
 export default {
   expo: {
     name: 'GVENTOS',
-    slug: 'events-scheduler', // slug válido e igual ao registrado no EAS
+    slug: 'events-scheduler',
     version: '1.0.0',
     orientation: 'portrait',
     icon: './assets/images/icon.png',
@@ -17,7 +17,7 @@ export default {
       supportsTablet: true,
     },
     android: {
-      package: 'com.lucianomota.gventos', // ID único do app
+      package: 'com.lucianomota.gventos',
       adaptiveIcon: {
         foregroundImage: './assets/images/adaptive-icon.png',
         backgroundColor: '#ffffff',
@@ -28,7 +28,20 @@ export default {
       output: 'single',
       favicon: './assets/images/favicon.png',
     },
-    plugins: ['expo-router'],
+    plugins: [
+      'expo-router',
+      [
+        'expo-build-properties',
+        {
+          android: {
+            compileSdkVersion: 34,
+            targetSdkVersion: 34,
+            buildToolsVersion: '34.0.0',
+            kotlinVersion: '1.9.10', // versão segura e compatível
+          },
+        },
+      ],
+    ],
     experiments: {
       typedRoutes: true,
     },
