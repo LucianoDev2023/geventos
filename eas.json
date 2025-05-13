@@ -1,12 +1,13 @@
 {
   "cli": {
-    "version": ">= 3.0.0"
+    "version": ">= 3.0.0",
+    "appVersionSource": "project"
   },
   "build": {
     "apk": {
       "distribution": "internal",
       "android": {
-        "image": "expo/android-ndk-r25b",
+        "image": "ubuntu-22.04-jdk-17-ndk-r25b",
         "buildType": "apk"
       }
     },
