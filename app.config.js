@@ -33,7 +33,7 @@ export default {
             compileSdkVersion: 34,
             targetSdkVersion: 34,
             buildToolsVersion: '34.0.0',
-            kotlinVersion: '1.9.10', // versão segura e compatível
+            kotlinVersion: '1.7.20', // versão segura e compatível
           },
         },
       ],
