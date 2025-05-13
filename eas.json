@@ -6,6 +6,7 @@
     "apk": {
       "distribution": "internal",
       "android": {
+        "image": "expo/android-ndk-r25b",
         "buildType": "apk"
       }
     },
