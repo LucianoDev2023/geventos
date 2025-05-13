@@ -18,10 +18,6 @@ export default {
     },
     android: {
       package: 'com.luciano_dev_2025.eventsscheduler',
-      adaptiveIcon: {
-        foregroundImage: './assets/images/adaptive-icon.png',
-        backgroundColor: '#ffffff',
-      },
     },
     web: {
       bundler: 'metro',
