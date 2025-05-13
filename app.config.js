@@ -1,6 +1,6 @@
 export default {
   expo: {
-    name: 'GVENTOS',
+    name: 'events-scheduler',
     slug: 'events-scheduler',
     version: '1.0.0',
     orientation: 'portrait',
@@ -17,7 +17,7 @@ export default {
       supportsTablet: true,
     },
     android: {
-      package: 'com.lucianomota.gventos',
+      package: 'com.luciano_dev_2025.eventsscheduler',
       adaptiveIcon: {
         foregroundImage: './assets/images/adaptive-icon.png',
         backgroundColor: '#ffffff',

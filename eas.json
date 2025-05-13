@@ -1,17 +1,10 @@
 {
   "cli": {
-    "version": ">= 3.0.0",
-    "appVersionSource": "remote"
+    "version": ">= 3.0.0"
   },
   "build": {
-    "production": {
-      "android": {
-        "buildType": "apk"
-      },
-      "autoIncrement": true,
-      "cache": {
-        "disabled": true
-      }
+    "apk": {
+      "distribution": "internal"
     }
   }
 }
